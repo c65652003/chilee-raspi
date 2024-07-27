@@ -1,7 +1,15 @@
-#list
-student = ['robert',87,92,69]
-print(student)
-print(student[0])
-print(student[1])
-print(student[2])
-print(student[3])
+#dictionary
+#dict
+
+student_dict = {"name":"robert",
+                "chinese":87,
+                "english":97,
+                "math":86}
+
+##print(type(student_dict))
+
+#subscript
+##student_dict["name"]
+##print(student_dict)
+
+student_dict.values()
